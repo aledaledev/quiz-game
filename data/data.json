@@ -1,0 +1,22 @@
+[
+    {
+        "question":"How many bones are there in the human body?",
+        "choices":[221,186,401,206],
+        "answer":206
+    },
+    {
+        "question":"What is the best-selling book in history?",
+        "choices":["The little prince","Don Quixote of La Mancha","Lord of the rigns","The bible"],
+        "answer":"The bible"
+    },
+    {
+        "question":"Who painted 'The Last Supper'?",
+        "choices":["Pablo Picasso","Miguel Ángel","Leonardo DaVinci","Vincent van Gogh"],
+        "answer":"Leonardo DaVinci"
+    },
+    {
+        "question":"How much is the number pi worth?",
+        "choices":["2,2114","3.1416","2.6114","3.2114"],
+        "answer":"3.1416"
+    }
+]

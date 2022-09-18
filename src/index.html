@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Quiz Game</title>
+    <link href="../dist/output.css" rel="stylesheet" />
+  </head>
+  <body class="bg-indigo-100">
+    <div id="game">
+      <h1 class="text-3xl text-center p-10 text-cyan-800 font-semibold">Quiz</h1>
+      <div class="bg-slate-100 mx-auto w-4/6 rounded-sm max-w-xs border-cyan-600 border">
+        <h2 id="question" class="text-cyan-700 py-10 px-5 text-xl text-center font-medium"></h2>
+        <div id="choices" class="flex flex-col gap-3 items-center pb-10">
+        </div>
+      </div>
+      <footer>
+        <p id="progress" class="text-center text-cyan-800 py-10"></p>
+      </footer>
+      <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+      <script type="module" src="./app.js"></script>
+    </div>
+  </body>
+</html>
